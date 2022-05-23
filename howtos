@@ -1,0 +1,9 @@
+npm install express dotenv mongoose colors
+
+npm i -D nodemon
+
+
+
+
+Testa
+npm run server
