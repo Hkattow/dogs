@@ -1,7 +1,21 @@
-//GET http://localhost:5000/api/dogs
+//DELETE http://localhost:5000/api/dogs?id=628e55f22de59ee9f731aedd
 
-//POST http://localhost:5000/api/dogs
+GET http://localhost:5000/api/dogs
 
-//PUT http://localhost:5000/api/dogs/kim
+###
+PUT http://localhost:5000/api/dogs/628fdc40102ac8b598db6eed
+Content-Type: application/json
+{"_id":"628fdc40102ac8b598db6eed","name":"MyFino_2","birthDate":"1999911"}
 
-DELETE http://localhost:5000/api/dogs/kimsa
+
+//PUT http://localhost:5000/api/dogs?id=628e55f22de59ee9f731aedd
+//Content-type: application/x-www-form-urlencoded
+//name=Kim2
+//birthDate=195609
+
+//DELETE http://localhost:5000/api/dogs?id=628e55f22de59ee9f731aedd
+
+###
+POST http://localhost:5000/api/dogs
+Content-Type: application/json
+{ 'name' : 'Kimsa_99', 'birthDate': 19891'}
